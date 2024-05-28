@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Registration Form</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <div class="whole">
+        <div class="pos">
+            <img src="Images/HEALTH Way (2).png" alt="">
+        </div>
+        <form id="form" action="/">
+            
+            <h1>Registration Form</h1>
+            <div class="ic">
+                <label for="username">Username</label>
+                <input id="username" name="username"type="text"placeholder="hanain">
+                <div class="error"></div>
+            </div>
+            <div class="ic">
+                <label for="contact_number">Contact Number</label>
+                <input id="contact_number" name="contact_number"type="tel"placeholder="03354678538">
+                <div class="error"></div>
+            </div>
+            <div class="ic">
+                <label for="email">Email</label>
+                <input id="email" name="email"type="text"placeholder="jeery@gmail.com">
+                <div class="error"></div>
+            </div>
+            <div class="ic">
+                <label for="password">Password</label>
+                <input id="password" name="password"type="password"placeholder="Password">
+                <img src="Images/eye-close.png" id="showPassword" alt="Show Password">
+                <div class="error"></div>
+            </div>
+            <div class="ic">
+                <label for="confirm_password">Confirm Password</label>
+                <input id="confirm_password" name="confirm_password"type="password" placeholder="Confirm Password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+ 
+</body>
+</html>
